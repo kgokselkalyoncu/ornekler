@@ -10,9 +10,9 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/operatorler/bin/Debug/net6.0/operatorler.dll",
+            "program": "${workspaceFolder}/tip-donusumleri/bin/Debug/net6.0/tip-donusumleri.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/operatorler",
+            "cwd": "${workspaceFolder}/tip-donusumleri",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
             "console": "integratedTerminal",
             "stopAtEntry": false
