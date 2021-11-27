@@ -10,11 +10,11 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/console-programlama/bin/Debug/net6.0/console-programlama.dll",
+            "program": "${workspaceFolder}/degisken/bin/Debug/net6.0/degisken.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/console-programlama",
+            "cwd": "${workspaceFolder}/degisken",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
-            "console": "internalConsole",
+            "console": "integratedTerminal",
             "stopAtEntry": false
         },
         {
