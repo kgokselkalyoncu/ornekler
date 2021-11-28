@@ -10,9 +10,9 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/tip-donusumleri/bin/Debug/net6.0/tip-donusumleri.dll",
+            "program": "${workspaceFolder}/hata-yonetimi/bin/Debug/net6.0/hata-yonetimi.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/tip-donusumleri",
+            "cwd": "${workspaceFolder}/hata-yonetimi",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
             "console": "integratedTerminal",
             "stopAtEntry": false
