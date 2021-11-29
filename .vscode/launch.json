@@ -10,9 +10,9 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/donguler-for-loop/bin/Debug/net6.0/donguler-for-loop.dll",
+            "program": "${workspaceFolder}/donguler-while-foreach/bin/Debug/net6.0/donguler-while-foreach.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/donguler-for-loop",
+            "cwd": "${workspaceFolder}/donguler-while-foreach",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
             "console": "integratedTerminal",
             "stopAtEntry": false
