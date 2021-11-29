@@ -88,12 +88,6 @@ namespace operatorler
             // % : mod alır
             int sonuc2 = 20%3;
             System.Console.WriteLine(sonuc2);
-
-            double meal_cost = 12.00;
-            int tip_percent = 20;
-
-            double tip_cost = ((double)tip_percent/100);
-            Console.WriteLine(tip_cost);
         }
     }
 }
