@@ -10,9 +10,9 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/if-else-if/bin/Debug/net6.0/if-else-if.dll",
+            "program": "${workspaceFolder}/switch-case/bin/Debug/net6.0/switch-case.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/if-else-if",
+            "cwd": "${workspaceFolder}/switch-case",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
             "console": "integratedTerminal",
             "stopAtEntry": false
