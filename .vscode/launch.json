@@ -10,9 +10,9 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/switch-case/bin/Debug/net6.0/switch-case.dll",
+            "program": "${workspaceFolder}/donguler-for-loop/bin/Debug/net6.0/donguler-for-loop.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/switch-case",
+            "cwd": "${workspaceFolder}/donguler-for-loop",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
             "console": "integratedTerminal",
             "stopAtEntry": false
