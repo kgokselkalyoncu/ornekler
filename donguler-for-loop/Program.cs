@@ -9,7 +9,13 @@ namespace donguler_for_loop // Note: actual namespace depends on the project nam
         public static void Main(string[] args)
         {
             System.Console.WriteLine("Lütfen bir sayı giriniz:");
-            int sayac = int.Parse(Console.ReadLine());
+            string? deger = "";
+            deger = Console.ReadLine();
+            int sayac = 0;
+            if(!string.IsNullOrEmpty(deger)){
+                sayac = int.Parse(deger);
+            }
+
             for (int i = 0; i < sayac; i++)
             {
                 if(i%2 == 1)

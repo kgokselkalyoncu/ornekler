@@ -9,7 +9,12 @@ namespace donguler_while_foreach // Note: actual namespace depends on the projec
         public static void Main(string[] args)
         {
             Console.WriteLine("Lütfen bir sayı giriniz");
-            int sayi = int.Parse(Console.ReadLine());
+            string? deger = "";
+            deger = Console.ReadLine();
+            int sayi = 0;
+            if(!string.IsNullOrEmpty(deger)){
+                sayi = int.Parse(deger);
+            }
             int sayac = 1;
             int toplam = 0;
             
