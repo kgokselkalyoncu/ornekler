@@ -26,13 +26,15 @@ namespace Diziler // Note: actual namespace depends on the project name.
 
             System.Console.WriteLine("Lütfen dizi elemanaları sayısı giriniz: ");
             string? diziUznStr = Console.ReadLine();
-            int diziUzunluğu = int.Parse(diziUznStr);
+            string _u = diziUznStr != null ? diziUznStr : "0";
+            int diziUzunluğu = int.Parse(_u);
             int[] sayiDizisi = new int[diziUzunluğu];
             
             for(int i=0; i < diziUzunluğu; i++){
                 System.Console.WriteLine("Lütfen {0}. sayıyı giriniz :", i+1);
                 string? diziValue = Console.ReadLine();
-                sayiDizisi[i] =  int.Parse(diziValue);
+                string _v = diziValue != null ? diziValue : "0";
+                sayiDizisi[i] =  int.Parse(_v);
             }
 
             int toplam = 0;
