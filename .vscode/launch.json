@@ -10,9 +10,9 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/metotlar/bin/Debug/net6.0/metotlar.dll",
+            "program": "${workspaceFolder}/metotlar-overloading/bin/Debug/net6.0/metotlar-overloading.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/metotlar",
+            "cwd": "${workspaceFolder}/metotlar-overloading",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
             "console": "integratedTerminal",
             "stopAtEntry": false
