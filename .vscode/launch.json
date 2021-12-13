@@ -10,9 +10,9 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/odev-1/bin/Debug/net6.0/odev-1.dll",
+            "program": "${workspaceFolder}/hazir-metotlar-string/bin/Debug/net6.0/hazir-metotlar-string.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/odev-1",
+            "cwd": "${workspaceFolder}/hazir-metotlar-string",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
             "console": "integratedTerminal",
             "stopAtEntry": false
