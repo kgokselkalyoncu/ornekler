@@ -10,9 +10,9 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/arraylist/bin/Debug/net6.0/arraylist.dll",
+            "program": "${workspaceFolder}/dictionary/bin/Debug/net6.0/dictionary.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/arraylist",
+            "cwd": "${workspaceFolder}/dictionary",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
             "console": "integratedTerminal",
             "stopAtEntry": false
