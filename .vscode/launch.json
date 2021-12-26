@@ -10,9 +10,9 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/dictionary/bin/Debug/net6.0/dictionary.dll",
+            "program": "${workspaceFolder}/odev-2/koleksiyonlar-soru-3/bin/Debug/net6.0/koleksiyonlar-soru-3.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/dictionary",
+            "cwd": "${workspaceFolder}/odev-2/koleksiyonlar-soru-3",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
             "console": "integratedTerminal",
             "stopAtEntry": false
