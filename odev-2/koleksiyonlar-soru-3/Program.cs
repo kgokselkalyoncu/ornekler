@@ -13,12 +13,14 @@ namespace koleksiyonlar_soru_3 // Note: actual namespace depends on the project 
             string? cumle = Console.ReadLine();
             List<char> vowelList = new List<char>();
 
-            foreach (var c in cumle)
-            {
-                if(IsVowel(Convert.ToChar(c)))
-                    vowelList.Add(Convert.ToChar(c));
+            if(cumle != null && cumle.Count() > 0){
+                foreach (var c in cumle)
+                {
+                    if(IsVowel(Convert.ToChar(c)))
+                        vowelList.Add(Convert.ToChar(c));
+                }
             }
-
+            
             vowelList.Sort();
 
             vowelList.ForEach(x => Console.Write(x));            
