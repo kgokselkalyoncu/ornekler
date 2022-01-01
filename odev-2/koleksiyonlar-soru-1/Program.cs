@@ -14,7 +14,7 @@ namespace koleksiyonlar_soru_1 // Note: actual namespace depends on the project 
             ArrayList asalSayilarArrayList = new ArrayList();
             ArrayList asalOlmayanSayilarArrayList = new ArrayList();
 
-            while (count < 21)
+            while (count < 4)
             {
                  a1:
                  Console.WriteLine("Lütfen {0}. sayıyı giriniz : ", count);
