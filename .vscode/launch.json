@@ -10,9 +10,9 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/inheritance/bin/Debug/net6.0/inheritance.dll",
+            "program": "${workspaceFolder}/arayuzler/bin/Debug/net6.0/arayuzler.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/inheritance",
+            "cwd": "${workspaceFolder}/arayuzler",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
             "console": "integratedTerminal",
             "stopAtEntry": false
