@@ -10,9 +10,9 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/projeler/telefon-rehberi/bin/Debug/net6.0/telefon-rehberi.dll",
+            "program": "${workspaceFolder}/projeler/todo-list/bin/Debug/net6.0/todo-list.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/projeler/telefon-rehberi",
+            "cwd": "${workspaceFolder}/projeler/todo-list",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
             "console": "integratedTerminal",
             "stopAtEntry": false
